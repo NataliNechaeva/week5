@@ -1,0 +1,115 @@
+.body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+div#img {
+    background-image: url("../images/wawe.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 780px;
+}
+.name {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-left {
+    margin-right: 10vw;
+}
+h2,h4,button,.logonav,.school {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1,h3 {
+    font-family: 'Raleway', sans-serif;
+    color: #0D302C;
+    max-width: 100%;
+    align-self: center;
+}
+.logonav {
+    color:#00FF00;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.logonav:hover {
+    color: #0D302C;
+}
+.nav {
+    display: flex;
+}
+
+.article {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 235px;
+    line-height: 100%;
+    letter-spacing: 0.6px;
+    color: #0D302C;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+    align-self: center;
+}
+h3 {
+    font-weight: 100;
+    font-size: 48px;
+    color: #01353E;
+    align-self: center;
+}
+.aboutschool {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-content: center;
+    height: 50vh;
+}
+
+.school {
+    font-weight: lighter;
+    font-size: 14px;
+    color: #242121;
+    margin-top: 1vh;
+    margin-left: 3vw;
+    height: 10vh;
+    width: 30vw;
+}
+
+.inschool {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.imgS {
+    margin-left: 5vw;
+}
+button {
+    width: 350px;
+    height: 70px;
+    color: #242121;
+    align-self: center;
+}
+button:focus { color: red; }
+button:active { color: green; }
